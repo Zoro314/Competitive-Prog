@@ -28,7 +28,9 @@ int main()
 		for( int j = i ; j < n ; j++)
 		{
 			sum += arr1[j] ;
-			if( sum > amount )	break ;
+			
+			if( sum > amount )
+				break ;
 			
 			if(sum == amount)
 			{
@@ -50,13 +52,10 @@ int main()
 		}
 		else
 		cout << "NO" << endl ;
-		
-		
+
 	    delete[] arr1;   // free the memory allocated
 
 	}
-
-
 
     return 0;
 }

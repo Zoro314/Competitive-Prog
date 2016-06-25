@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int m, n, amount ;
-	int invite = 0 ;
+	int invite = 0, sum = 0 ;
 
 	cin >> m ;
 	
@@ -22,7 +22,7 @@ int main()
 		
 		for(int i = 0 ; i < n ; i++ )
 		{
-			int sum = 0 ;
+			sum = 0 ;
 			invite = 0 ;
 
 		for( int j = i ; j < n ; j++)

@@ -1,3 +1,3 @@
 # Competitive-Prog
 
-Solutions for problems from Hackerrank, Hackerearth and Topcoder .
+Solutions for problems from Hackerrank, Hackerearth and Codeforces .
